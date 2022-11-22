@@ -240,13 +240,13 @@ const Nav = () => {
                 <div className="list-group-item sb-head-bg sbarm text-center list-group-item-dark"><span onClick={sidebar} className="backico"><i className="fa  fa-arrow-left"></i></span><span className="menuname text-center">Menu</span></div>
                 <ul className={Styles.navlists}>
                   <li onClick={sidebarfull} className="items">All Courses</li>
-                  <li className="items"><a href={"/about"}>Job Guarantee</a></li>
-                  <li className="items"><a href={"/skills"}>Free Online Courses</a></li>
+                  <li className="items"><a href={"/job-guarantee-programs"}>Job Guarantee</a></li>
+                  <li className="items"><a href={"/online-courses"}>Free Online Courses</a></li>
                   <li className="items"><a href={"/qualifications"} >Resources</a></li>
-                  <li className="items"><a href={"/certifications"} >Corporate Training</a></li>
-                  <li className="items"><a href={"/projects"}>Become an Instructor</a></li>
-                  <li className="items"><a href={"/services"}>Hire From Us</a></li>
-                  <li className="items"><a href={"contact"}>Digital transformation</a></li>
+                  <li className="items"><a href={"/corporate-training"} >Corporate Training</a></li>
+                  <li className="items"><a href={"/become-an-instructor"}>Become an Instructor</a></li>
+                  <li className="items"><a href={"/hire-from-us"}>Hire From Us</a></li>
+                  <li className="items"><a href={"#"}>Digital transformation</a></li>
                 </ul>
               </div>
             )}
@@ -377,7 +377,7 @@ const Nav = () => {
             )}
             {/************************* Courses categories onClick section ******************************/}
 
-            <a className="navbar-brand" href="#"><img className={Styles.logo} src="/tgt.png" alt="LOGO" /></a>
+            <a className="navbar-brand" href="/"><img className={Styles.logo} src="/tgt.png" alt="LOGO" /></a>
 
             <button className={Styles.minnavbtn} onClick={searchbar} type="submit"><i className="bi bi-search"></i></button>
             {isActiveSearch && (
@@ -392,7 +392,7 @@ const Nav = () => {
               <input className="form-control ms-2 sinput " type="search" placeholder="What do you want to learn?" aria-label="Search" />
               <button className="sbtn " type="submit"><i className="bi bi-search"></i></button>
             </form>
-            <div className="loginbtndiv mt-12"><a className="btn btn-outline-secondary" href="#">Log in</a></div>
+            <div className="loginbtndiv mt-12"><a className="btn btn-outline-secondary" href="/login">Log in</a></div>
 
           </div>
         </div>

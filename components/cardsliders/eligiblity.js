@@ -84,7 +84,7 @@ function certificationCourses() {
                             </div>
                         </Carousel.Item>
                     </Carousel>
-                    <div className="disc text-center mt-5"><p>Get shortlisted for the program based on your performance on the qualifying test. For more details, please read the applicable Frequent Asked Questions (FAQs) and <a href="https://www.simplilearn.com/terms-and-conditions" target="_blank">Terms and Conditions</a> <span>(T&amp;Cs).</span></p></div>
+                    <div className="disc text-center mt-5"><p>Get shortlisted for the program based on your performance on the qualifying test. For more details, please read the applicable Frequent Asked Questions (FAQs) and <a href="" >Terms and Conditions</a> <span>(T&amp;Cs).</span></p></div>
 
                 </div>
             </div></div>

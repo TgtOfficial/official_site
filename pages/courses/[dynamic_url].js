@@ -3,8 +3,12 @@ import { useRouter } from 'next/router'
 import Header1 from '../../components/headers/header1'
 
 
-const dynamic_url = () => {
+
+const Dynamic_url = () => {
+
     const router = useRouter()
+
+
     const dynamic_course = router.query.dynamic_url;
 
     return (
@@ -125,4 +129,4 @@ const dynamic_url = () => {
     )
 }
 
-export default dynamic_url
+export default Dynamic_url

@@ -4,7 +4,7 @@ function LearningExperience() {
             <div className="maindiv mt-3 mb-3">
                 <div className="titlediv  p-3 container">
 
-                    <p className="text">Our's online Bootcamps</p>
+                    <p className="text">Our{"'"}s online Bootcamps</p>
                     <h2 className="heading">An immersive learning experience</h2>
                 </div>
                 <div className="carddiv">

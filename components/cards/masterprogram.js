@@ -8,7 +8,7 @@ function UncontrolledExample() {
         <>
             <div className="main ">
                 <div className="headdiv container ">
-                    <h3 className="heading">Master's Programs</h3>
+                    <h3 className="heading">Master{"'"}s Programs</h3>
                     <p className='sub-heading'>Achieve your career goals with industry-recognized learning paths</p>
 
                     <Carousel className='maxview' variant="dark">
@@ -29,7 +29,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -48,7 +48,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -67,7 +67,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -90,7 +90,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -109,7 +109,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -128,7 +128,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -153,7 +153,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>
@@ -176,7 +176,7 @@ function UncontrolledExample() {
                                             </div>
                                             <p>Simplilearn JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
-                                            <p>Master's certificate</p>
+                                            <p>Master{"'"}s certificate</p>
                                         </div>
                                     </a>
                                 </div>

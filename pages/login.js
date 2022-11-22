@@ -69,7 +69,7 @@ function login() {
                 <div className="ri8 d-flex flex-column-reverse ">
                     <div className="container-fluid p-4 text-white">
                         <div className="right-heading">
-                            World's #1 online bootcamp
+                            World{"'"}s #1 online bootcamp
                         </div>
                         <div className="content">
                             Get started with your immersive learning experience

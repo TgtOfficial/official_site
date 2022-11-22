@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function UncontrolledExample() {
   return (
-    <> <div className="bg-white"> <h4 className="heading text-center text-secondary">Partnering with world's leading  companies</h4>
+    <> <div className="bg-white"> <h4 className="heading text-center text-secondary">Partnering with world{"'"}s leading  companies</h4>
       <div className="container justify-content-center p-3  d-flex ">
         <div className="img1  bg-white  mauto">
         <img src="/c1.png" alt="" />

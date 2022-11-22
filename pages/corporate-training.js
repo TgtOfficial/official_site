@@ -10,7 +10,7 @@ function Ct() {
                 <div className="banner">
                     <div className="container">
                         <h1 data-test="banner-title">Upskill Your Organization</h1>
-                        <span className="banner-info" data-test="banner-subtitle">with the World's #1 Online Bootcamp</span>
+                        <span className="banner-info" data-test="banner-subtitle">with the World{"'"}s #1 Online Bootcamp</span>
                         <div className="btndiv">
                             <a href="#" className="btn btn-primary btnc">Contact Us</a>
                         </div>
@@ -24,12 +24,12 @@ function Ct() {
                 </div>
                 <div className="container pb-5 mt-5 btcamp">
                     <div className="key-feature">
-                        <h2 data-test="bootcampTitle">The Power of <b>Simplilearn's Bootcamp</b></h2>
+                        <h2 data-test="bootcampTitle">The Power of <b>The Generic Technology{"'"}s Bootcamp</b></h2>
                         <p data-test="bootcampSubtitle">Research shows that hands-on, interactive learning is
                             <span className="highlight">7X more effective</span>
                             than simply reading or watching course material.
                         </p>
-                        <span data-test="bootcampHeading">That{"’"}s why Simplilearn{"’"}s Bootcamp provides:</span>
+                        <span data-test="bootcampHeading">That{"’"}s why The Generic Technology{"’"}s Bootcamp provides:</span>
                         <ul>
                             <li>Live virtual classes taught by industry experts</li>
                             <li>Cohort based learning with peer-to-peer interaction</li>
@@ -45,7 +45,7 @@ function Ct() {
                     <div className="container">
                         <dv className="head">
                             <h2 data-test="potential-title">
-                                <b>Unlock</b> Your Team's Potential</h2>
+                                <b>Unlock</b> Your Team{"'"}s Potential</h2>
                         </dv>
                         <span data-test="potential-subtitle">Role-aligned learning paths that map digital skills to desired learner outcomes.</span>
                         <div className="teams">

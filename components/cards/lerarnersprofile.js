@@ -4,7 +4,7 @@ function whyhire() {
         <>
             <div className="main ">
                 <div className="titlediv pt-5 mb-5 container">
-                    <h2 className="whytt">Our Learners' Profile</h2>
+                    <h2 className="whytt">Our Learner{"'"}s Profile</h2>
                 </div>
                 <div className="cardsdiv container">
                     <div className="cards">

@@ -560,7 +560,7 @@ const Onlinecourses = () => {
                                 <ul>
                                     <li className="learn-from-experts"><span>Learn from Industry Experts</span> <br />  <p> Comprehensive self-paced courses created with top practitioners </p>  </li>
                                     <li className="free-resources"><span>Free Resources</span> <br /> <p>  Free guides on career paths, salaries, interview tips, and more</p> </li>
-                                    <li className="learn-own-pace"><span>Skill-based Learning</span> <br /> <p>  600+ job-ready skills on offer in today's most in-demand domains</p> </li>
+                                    <li className="learn-own-pace"><span>Skill-based Learning</span> <br /> <p>  600+ job-ready skills on offer in today{"'"}s most in-demand domains</p> </li>
                                     <li className="learn-anytime"><span>Learn Anytime, Anywhere</span> <br />  <p> Learn while working or studying from any place, across any device</p> </li>
                                 </ul>
                             </div>

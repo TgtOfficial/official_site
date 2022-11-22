@@ -17,12 +17,12 @@ function instructor() {
                         <p class="first-para">Passionate about teaching? Looking for a platform where you can share your knowledge, connect with professionals, and enrich careers, all while earning supplemental income?</p>
                         <div className="txtctn txt-color">
                             <div className="c1">
-                                <h3 className="head1">You've come to the right place.</h3>
+                                <h3 className="head1">You{"'"}ve come to the right place.</h3>
                                 <p className="desc1">At Simplilearn, our constant endeavour is to create a network of world-class trainers and industry-experts who, in turn, create high-quality courseware that resonates with professionals the world over, cutting across domains, especially Full Stack, DevOps, Cloud Computing, Big Data, Deep Learning and NLP.</p>
                             </div>
                             <div className="c1">
-                                <h3 className="head1">What's in it for me?</h3>
-                                <p className="desc1">We're glad you asked! The material you produce will be used to train professionals worldwide, meaning increased visibility, a larger audience for your content, and the chance to become a part of an elite worldwide training community!</p>
+                                <h3 className="head1">What{"'"}s in it for me?</h3>
+                                <p className="desc1">We{"'"}re glad you asked! The material you produce will be used to train professionals worldwide, meaning increased visibility, a larger audience for your content, and the chance to become a part of an elite worldwide training community!</p>
                             </div>
                             <div className="c1">
                                 <h3 className="head1">Show me the money!</h3>

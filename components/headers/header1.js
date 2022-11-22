@@ -6,6 +6,8 @@ import DownD from "./dropdown/down";
 import MultiDrop from './dropdown/nestdropdown';
 import Image from "next/image";
 import Topbar from "./topbar";
+import Link from "next/link";
+
 
 
 
@@ -254,15 +256,15 @@ const Nav = () => {
               <div className="sidebarminfull"  >
                 <div className="list-group-item sbarm sb-head-bg text-center list-group-item"><span onClick={sidebarfull} className="backico"><i className="fa  fa-arrow-left"></i></span><span className="menuname text-center">All Courses</span> <div onClick={() => { sidebarfull(); sidebar(); }} className="xclose"><CloseButton /></div></div>
                 <ul className={Styles.navlists}>
-                  <li onClick={mcc1} className="items"><a href="#" className="hh">Data1 Science {'&'} Business Analytics</a></li>
-                  <li onClick={mcc2} className="items"><a href="#" className="hh">AI {'&'} Machine Learning</a></li>
-                  <li onClick={mcc3} className="items"><a href="#" className="hh">Project Management</a></li>
-                  <li onClick={mcc4} className="items"><a href="#" className="hh">Cyber Security</a></li>
-                  <li onClick={mcc5} className="items"><a href="#" className="hh">Cloud Computing</a></li>
-                  <li onClick={mcc6} className="items"><a href="#" className="hh">Software Development</a></li>
-                  <li onClick={mcc7} className="items"><a href="#" className="hh">IT Service and Architecture</a></li>
-                  <li onClick={mcc8} className="items"><a href="#" className="hh">Digital Marketing</a></li>
-                  <li onClick={mcc9} className="items"><a href="#" className="hh">Big Data</a></li>
+                  <li onClick={mcc1} className="items"><Link href={"#"} className="hh">Data1 Science {'&'} Business Analytics</Link></li>
+                  <li onClick={mcc2} className="items"><Link href={"#"} className="hh">AI {'&'} Machine Learning</Link></li>
+                  <li onClick={mcc3} className="items"><Link href={"#"} className="hh">Project Management</Link></li>
+                  <li onClick={mcc4} className="items"><Link href={"#"} className="hh">Cyber Security</Link></li>
+                  <li onClick={mcc5} className="items"><Link href={"#"} className="hh">Cloud Computing</Link></li>
+                  <li onClick={mcc6} className="items"><Link href={"#"} className="hh">Software Development</Link></li>
+                  <li onClick={mcc7} className="items"><Link href={"#"} className="hh">IT Service and Architecture</Link></li>
+                  <li onClick={mcc8} className="items"><Link href={"#"} className="hh">Digital Marketing</Link></li>
+                  <li onClick={mcc9} className="items"><Link href={"#"} className="hh">Big Data</Link></li>
 
                 </ul>
               </div>
@@ -377,7 +379,7 @@ const Nav = () => {
             )}
             {/************************* Courses categories onClick section ******************************/}
 
-            <a className="navbar-brand" href="/"><img className={Styles.logo} src="/tgt.png" alt="LOGO" /></a>
+            <a className="navbar-brand" href={"/"}><img className={Styles.logo} src="/tgt.png" alt="LOGO" /></a>
 
             <button className={Styles.minnavbtn} onClick={searchbar} type="submit"><i className="bi bi-search"></i></button>
             {isActiveSearch && (
@@ -392,7 +394,7 @@ const Nav = () => {
               <input className="form-control ms-2 sinput " type="search" placeholder="What do you want to learn?" aria-label="Search" />
               <button className="sbtn " type="submit"><i className="bi bi-search"></i></button>
             </form>
-            <div className="loginbtndiv mt-12"><a className="btn btn-outline-secondary" href="/login">Log in</a></div>
+            <div className="loginbtndiv mt-12"><a className="btn btn-outline-secondary" href={"/login"}>Log in</a></div>
 
           </div>
         </div>

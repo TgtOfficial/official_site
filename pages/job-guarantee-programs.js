@@ -38,7 +38,7 @@ function Job() {
                             <img src="/jobs.png" alt="" />
                         </div>
                     </div>
-                    <div className=" text-gray bgc p-3 "><p className='container small'>*Disclaimer: Valid only for Simplilearn Job Guarantee Programs. Please read the applicable Frequently Asked Questions (FAQs) and <a href="https://www.simplilearn.com/terms-and-conditions" target="_blank"> Terms and Conditions </a> (T&amp;Cs) carefully prior to enrolment. Past record is no guarantee of future prospects.</p></div>
+                    <div className=" text-gray bgc p-3 "><p className='container small'>*Disclaimer: Valid only for Simplilearn Job Guarantee Programs. Please read the applicable Frequently Asked Questions (FAQs) and <a href="#" > Terms and Conditions </a> (T&amp;Cs) carefully prior to enrolment. Past record is no guarantee of future prospects.</p></div>
                     <div className=" bg-white  ">
                         <div className="container pt-5 pb-5 career-launch d-flex">
                             <div className="heading">

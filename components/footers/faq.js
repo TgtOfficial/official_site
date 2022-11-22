@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-function faq() {
+function Faq() {
 
     const [isActive1, setIsActive1] = useState(false)
     const list1 = () => {
@@ -160,4 +160,4 @@ function faq() {
     )
 
 }
-export default faq
+export default Faq

@@ -14,7 +14,7 @@ function instructor() {
                 </div>
                 <div className="container mt-5 txt-color d-flex">
                     <div className="left-text wc">
-                        <p class="first-para">Passionate about teaching? Looking for a platform where you can share your knowledge, connect with professionals, and enrich careers, all while earning supplemental income?</p>
+                        <p className="first-para">Passionate about teaching? Looking for a platform where you can share your knowledge, connect with professionals, and enrich careers, all while earning supplemental income?</p>
                         <div className="txtctn txt-color">
                             <div className="c1">
                                 <h3 className="head1">You{"'"}ve come to the right place.</h3>

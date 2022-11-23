@@ -12,7 +12,7 @@ const Onlinecourses = () => {
 
 
 
-    //  console.log("courses data " ,courses)
+    console.log("courses data ", courses)
 
 
 
@@ -30,20 +30,22 @@ const Onlinecourses = () => {
     const [isActiveddc10, setIsActiveddc10] = useState(false)
     const [isActiveddc11, setIsActiveddc11] = useState(false)
     const [isActiveddc12, setIsActiveddc12] = useState(false)
+    const [isCoursesApi, setIsCoursesApi]=useState(false)
 
 
 
-    const apifetch =() =>{
+    if (isCoursesApi==false) {
+
         const resposse = axios.get("/api/courses")
-        .then(
-            data => {
-                setCourses(data)
-                 console.log(data.data)
-            }
-        )
-        .catch(
-            error => console.log(error)
-        );
+            .then(
+                data => {
+                    setCourses(data)
+                    setIsCoursesApi(!isCoursesApi)
+                }
+            )
+            .catch(
+                error => console.log(error)
+            );
     }
 
     const ddc1 = () => {
@@ -585,20 +587,20 @@ const Onlinecourses = () => {
                 </div>
                 <div className="coursesbar">
 
-                    <div  className="topddc  container">
+                    <div className="topddc  container">
                         <h2 className="head">Explore Free Online Courses</h2>
                         <div className='ditemdiv' >
                             <div className="dmg p-3">
                                 <div className="ci1 title hh dropdown-item"><h4 className="h hhh">COURSE CATEGORIES</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc1} className="ci2 dropdown-item clight "><h4 className="h">Data Science {'&'} Business Analytics</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc2} className="ci3 dropdown-item clight "><h4 className="h">AI {'&'} Machine Learning</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc3} className="ci4 dropdown-item clight "><h4 className="h">Project Management</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc4} className="ci5 dropdown-item clight "><h4 className="h">Cyber Security</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc5} className="ci6 dropdown-item clight "><h4 className="h">Cloud Computing</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc6} className="ci10 dropdown-item clight "><h4 className="h">Software Development</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc7} className="ci12 dropdown-item clight "><h4 className="h">IT Service and Architecture</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc8} className="ci13 dropdown-item clight "><h4 className="h">Digital Marketing</h4></div>
-                                <div onMouseOver={apifetch} onClick={ddc9} className="ci14 dropdown-item clight "><h4 className="h">Big Data</h4></div>
+                                <div onClick={ddc1} className="ci2 dropdown-item clight "><h4 className="h">Data Science {'&'} Business Analytics</h4></div>
+                                <div onClick={ddc2} className="ci3 dropdown-item clight "><h4 className="h">AI {'&'} Machine Learning</h4></div>
+                                <div onClick={ddc3} className="ci4 dropdown-item clight "><h4 className="h">Project Management</h4></div>
+                                <div onClick={ddc4} className="ci5 dropdown-item clight "><h4 className="h">Cyber Security</h4></div>
+                                <div onClick={ddc5} className="ci6 dropdown-item clight "><h4 className="h">Cloud Computing</h4></div>
+                                <div onClick={ddc6} className="ci10 dropdown-item clight "><h4 className="h">Software Development</h4></div>
+                                <div onClick={ddc7} className="ci12 dropdown-item clight "><h4 className="h">IT Service and Architecture</h4></div>
+                                <div onClick={ddc8} className="ci13 dropdown-item clight "><h4 className="h">Digital Marketing</h4></div>
+                                <div onClick={ddc9} className="ci14 dropdown-item clight "><h4 className="h">Big Data</h4></div>
 
                             </div>
                             <div className="dmr p-3 d-flex">
@@ -609,9 +611,9 @@ const Onlinecourses = () => {
                                                 courses.data.map((course) => (
                                                     <div key={course.title} className="box">
                                                         <h2>{course.title}</h2>
-                                                        <br /> 
+                                                        <br />
                                                         <span>{course.duration}</span>
-                                                        <br /> 
+                                                        <br />
                                                         <p>{course.categories}</p>
                                                         <br />
                                                         <span className="bold">Course Fee : {course.fee}</span>

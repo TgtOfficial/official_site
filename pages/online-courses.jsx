@@ -618,7 +618,7 @@ const Onlinecourses = () => {
                                                         <br />
                                                         <span className="bold">Course Fee : {course.fee}</span>
                                                         <hr />
-                                                        <a href="#">View Course</a>
+                                                        <a href={`/courses/${course.title}`}>View Course</a>
                                                     </div>
                                                 ))
                                             }

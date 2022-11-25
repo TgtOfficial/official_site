@@ -46,14 +46,17 @@ function instructor() {
                                 <h3 className="titleform">INTERESTED IN WORKING WITH US?</h3>
                                 <p className="desform text-center">Please submit this form and a Simplilearn representative will reach out to you.</p>
                             </div>
-                            <form action="#">
+                            <form >
                                 <div className="form-group mb-3">
+                                    <label htmlFor="input" className="form-label">Name</label>
                                     <input type="text" className='form-control name ' placeholder='enter name' />
                                 </div>
                                 <div className="form-group mb-3">
+                                    <label htmlFor="input" className="form-label">email</label>
                                     <input type="email" className='form-control email ' placeholder='enter email' />
                                 </div>
                                 <div className='form-group  mb-3 '>
+                                    <label htmlFor="select" className="form-label">Department</label>
                                     <select name="selectform" id="idselect" className="form-select">
                                         <option value="1">Full Stack Developers</option>
                                         <option value="2">Automation testing</option>
@@ -61,10 +64,16 @@ function instructor() {
                                     </select>
                                 </div>
                                 <div className="form-group mb-3 ">
+                                    <label htmlFor="input" className="form-label">Mobile No.</label>
                                     <input type="text" className='form-control name ' placeholder='enter phone number' />
                                 </div>
                                 <div className="form-group mb-3 ">
-                                    <input type="text" className='form-control profileurl ' placeholder='enter Linkedln url' />
+                                    <label htmlFor="input" className="form-label">Resume</label>
+                                    <input type="file" className='form-control profileurl ' placeholder='enter Linkedln url' />
+                                </div>
+                                <div className="form-group text-center ">
+                                    <label htmlFor="button" className=''>-</label>
+                                    <button type='submit' className='btn w-100 btn-primary'>Submit</button>
                                 </div>
 
                             </form>

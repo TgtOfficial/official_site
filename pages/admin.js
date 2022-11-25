@@ -1,8 +1,51 @@
-function login() {
+import axios from 'axios';
+import Router from 'next/router';
+import { useState, useEffect } from 'react';
+
+
+function Login() {
+
+    const [username, setusername] = useState("");
+    const [password, setpassword] = useState("");
+    const [istrue, setistrue] = useState(false)
+
+
+    const [usersdata, setusersdata] = useState('');
+    const submitf = () => {
+
+
+
+
+        const response = axios.post("http://localhost/tgt/login.php", {
+            "username": username,
+            "password": password
+        })
+            .then(
+                data => {
+                    // console.log(data)
+                    // setusersdata(data.data.status)
+                    // setistrue(!istrue)
+                    // console.log(usersdata)
+                    if (data.data.status == 'Success') {
+                        console.log("success full condition")
+                        Router.push(`/dashboard/${data.data.token}`)
+                    }
+
+                }
+            )
+            .catch(
+                error => console.log(error)
+            );
+
+
+
+
+
+    }
+
 
     return (
         <>
-
             <div className="maindiv d-flex">
                 <div className="leftdiv bg-white text-center p-5">
                     <div className="logotxt">
@@ -15,12 +58,12 @@ function login() {
                         <form>
 
                             <div className="form-outline mb-4">
-                                <input type="email" id="form2Example1" placeholder="Email Address *" className="form-control" />
+                                <input type="email" id="form2Example1" onChange={e => setusername(e.target.value)} placeholder="Username *" className="form-control" />
                             </div>
 
 
                             <div className="form-outline mb-4">
-                                <input type="password" id="form2Example2" placeholder="Password *" className="form-control" />
+                                <input type="password" id="form2Example2" onChange={e => setpassword(e.target.value)} placeholder="Password *" className="form-control" />
                             </div>
 
 
@@ -40,7 +83,7 @@ function login() {
                             </div>
 
 
-                            <button type="button" className="btn w-100 btn-primary btn-block mb-4">Sign in</button>
+                            <button type="button" onClick={submitf} className="btn w-100 btn-primary btn-block mb-4">Sign in</button>
 
 
                             <div className="text-center">
@@ -62,13 +105,12 @@ function login() {
                                     <i className="fab fa-github"></i>
                                 </button>
                             </div>
-                            <div className="container"><a href="/admin" className="btn btn-link">Authorised Login</a></div>
                         </form>
 
                     </div>
                 </div>
                 <div className="ri8 d-flex flex-column-reverse ">
-                    <div className="container-fluid p-4 text-white">
+                    <div className="container-fluid p-4 text-secondary">
                         <div className="right-heading">
                             World{"'"}s #1 online bootcamp
                         </div>
@@ -94,7 +136,7 @@ function login() {
     width:50%;
 }
 .ri8{
-    background: url(/login.png) no-repeat;
+    background: url(/alogin.jpg) no-repeat;
     background-size: cover;
     height: 100%;
     width:100%;
@@ -148,4 +190,4 @@ function login() {
         </>
     )
 }
-export default login
+export default Login

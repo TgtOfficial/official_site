@@ -12,7 +12,7 @@ function instructor() {
                 <div className="homediv mh">
                     <div className="container"><h1 className='bold text-white'>Teach. Create. Earn.</h1></div>
                 </div>
-                <div className="container mt-5 txt-color d-flex">
+                <div className="container mt-5 txt-color mdflex d-flex">
                     <div className="left-text wc">
                         <p className="first-para">Passionate about teaching? Looking for a platform where you can share your knowledge, connect with professionals, and enrich careers, all while earning supplemental income?</p>
                         <div className="txtctn txt-color">
@@ -176,6 +176,17 @@ function instructor() {
 .wc{
     width:70%;
 
+}
+@media(max-width:992px){
+    .mdflex{
+        flex-direction:column;
+    }
+    .wc{
+        width:100%;
+    }
+    .formdiv{
+        margin:0;
+    }
 }
 
         `

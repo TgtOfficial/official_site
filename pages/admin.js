@@ -30,6 +30,9 @@ function Login() {
                         console.log("success full condition")
                         Router.push(`/dashboard/${data.data.token}`)
                     }
+                    else{
+                        alert('Invalid Credentials')
+                    }
 
                 }
             )

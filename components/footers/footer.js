@@ -9,7 +9,7 @@ import {
   MDBInput,
   MDBCol,
   MDBRow,
-  MDBBtn
+  
 } from 'mdb-react-ui-kit';
 
 const footer = () => {
@@ -26,29 +26,29 @@ const footer = () => {
               <MDBCol className='mb-2 fc fc1 mb-md-0'>
                 <p className='text-start'>Follow Us!</p>
                 <div className="idiv">
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light"  className='m1 alink' href='#!' >
                     <MDBIcon fab icon='facebook-f' />
-                  </MDBBtn>
+                  </button>
 
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
                     <MDBIcon fab icon='twitter' />
-                  </MDBBtn>
+                  </button>
 
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
                     <MDBIcon fab icon='google' />
-                  </MDBBtn>
+                  </button>
 
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
                     <MDBIcon fab icon='instagram' />
-                  </MDBBtn>
+                  </button>
 
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
                     <MDBIcon fab icon='linkedin-in' />
-                  </MDBBtn>
+                  </button>
 
-                  <MDBBtn outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
                     <MDBIcon fab icon='github' />
-                  </MDBBtn>
+                  </button>
                 </div>
               </MDBCol>
               <MDBCol className='mb-4  fc mb-md-0'>
@@ -178,11 +178,10 @@ const footer = () => {
           <section className='maxfd'>
             <Fsection />
           </section>
-          <hr />
-          <section>
+          {/* <section>
 
             <Desc />
-          </section>
+          </section> */}
         </div>
         <div className="bfootdiv" >
           <div className='text-center pd-0 container bfoot ' >

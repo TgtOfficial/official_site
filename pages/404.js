@@ -4,7 +4,7 @@ function login() {
 
     return (
         <> <Header1/>
-            <div className="error-page ds m-5">
+            <div className="error-page  m-5">
                
                 <div className="content">
                     <h1 data-text="404">404</h1>
@@ -30,7 +30,7 @@ function login() {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        background:rgb(240 247 246);
+                        // background:rgb(240 247 246);
                         box-shadow: 0px 5px 10px rgba(28, 135, 37, 0.1);
                     }
                     .error-page .content{

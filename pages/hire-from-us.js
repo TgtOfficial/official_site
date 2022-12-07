@@ -3,6 +3,8 @@ import WhyHire from '../components/cards/whyhire'
 import LearnersProfile from '../components/cards/lerarnersprofile'
 import HireForm from '../components/hireContact'
 import FAQ2 from '../components/footers/faq2'
+import Footer from '../components/footers/footer'
+
 function Hire() {
 
     return (
@@ -51,6 +53,8 @@ function Hire() {
                         </div>
                         <HireForm/>
                         <FAQ2/>
+                        <Footer/>
+
 
                     </div>
 

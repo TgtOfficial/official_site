@@ -4,6 +4,7 @@ import { useState } from 'react'
 import axios from 'axios';
 import { useRef } from 'react';
 import FormData from 'form-data';
+import Footer from '../components/footers/footer'
 
 
 const online = () => {
@@ -121,8 +122,6 @@ const online = () => {
                                         <option key={course.title} value={course.title}>{course.title}</option>
                                     ))
                                 }</>)}
-
-
                             </select>
                         </div>
 

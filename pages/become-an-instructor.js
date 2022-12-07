@@ -1,6 +1,8 @@
 import Header1 from '../components/headers/header1'
 import Carousel from 'react-bootstrap/Carousel';
 import { CarouselItem } from 'react-bootstrap';
+import Footer from '../components/footers/footer'
+
 
 
 function instructor() {
@@ -109,6 +111,7 @@ function instructor() {
 
 
             </div>
+            <Footer/>
             <style jsx>
                 {
                     `
@@ -116,6 +119,16 @@ function instructor() {
     background: linear-gradient(90deg, #153E7C 0.26%, #147FA0 100%);
     padding:56px;
     
+}
+@media(max-width:992px){
+    .mh{
+        padding:56px 16px;
+    }
+    .cards{
+        width:100% !important;
+        padding:12px !important ;
+        margin:12px !important;
+    }
 }
 .carditem{
     background:white;

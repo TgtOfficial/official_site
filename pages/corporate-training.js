@@ -1,4 +1,6 @@
 import Header1 from '../components/headers/header1'
+import Footer from '../components/footers/footer'
+
 
 
 function Ct() {
@@ -93,6 +95,7 @@ function Ct() {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
             <style jsx>
                 {

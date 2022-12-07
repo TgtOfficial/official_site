@@ -4,7 +4,7 @@ const fsection = () => {
     return (<>
 
         <div className="brand-courses">
-            <div className='text-start fclink'>
+            {/* <div className='text-start fclink'>
                 <p>Trending Post Graduate Programs</p>
                 <a href="" title="Project Management Certification Course">Project Management Certification Course</a> |
                 <a href="" title="Cyber Security Certification Course">Cyber Security Certification Course</a> |
@@ -54,7 +54,7 @@ const fsection = () => {
                 <a href="" title="Kubernetes Tutorial">Kubernetes Tutorial</a> |
                 <a href="" title="Power BI Tutorial">Power BI Tutorial</a> |
                 <a href="" title="CSS Tutorial">CSS Tutorial</a>
-            </div>
+            </div> */}
         </div>
         <div className="text-center ppmain">
             <ul className='ppdiv text-center'>

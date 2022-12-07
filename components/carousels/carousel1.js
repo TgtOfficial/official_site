@@ -5,8 +5,8 @@ function UncontrolledExample() {
   return (
     <>
       <Carousel>
-        <Carousel.Item className='bg-primary'>
-          <div className=" text-white container minflex  d-flex p-4 bg-primary">
+        <Carousel.Item className='bgcolor'>
+          <div className=" text-white container minflex   d-flex p-4 ">
             <div className="left">
               <span className="ey-title">9/10 of our learners</span>
               <p>
@@ -18,8 +18,9 @@ function UncontrolledExample() {
               <div className="ey-process">
                 <span>Process Advisors</span>
                 <br />
+                <br />
               </div>
-              <a href="#" className="btn btn-warning"> Explore Programs</a>
+              <a href="#" className="btn hb btn-"> Explore Programs</a>
 
             </div>
             <div className="right">
@@ -29,8 +30,8 @@ function UncontrolledExample() {
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item className='bg-primary'>
-          <div className=" text-white container minflex  d-flex p-4 bg-primary">
+        <Carousel.Item className='bgcolor'>
+          <div className=" text-white container minflex  d-flex p-4 ">
             <div className="left">
               <span className="ey-title">9/10 of our learners</span>
               <p>
@@ -42,8 +43,9 @@ function UncontrolledExample() {
               <div className="ey-process">
                 <span>Process Advisors</span>
                 <br />
+                <br />
               </div>
-              <a href="#" className="btn btn-warning"> Explore Programs</a>
+              <a href="#" className="btn hb btn-waring"> Explore Programs</a>
 
 
             </div>
@@ -64,12 +66,18 @@ function UncontrolledExample() {
       }
       p{
         font-size:54px;
-        line-height:44px;
+        line-height:64px;
+      }
+      .bgcolor{
+        background:red !important;
+      }
+      .hb{
+        background:#096810 !important;
       }
       @media(max-width:900px){
         p{
           font-size:16px;
-          line-height:22px;
+          line-height:42px;
         }
         .minflex{
           flex-direction:column;

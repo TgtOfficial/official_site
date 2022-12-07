@@ -4,6 +4,8 @@ import Eligiblity from '../components/cardsliders/eligiblity';
 import Alluminiworks from '../components/cards/alluminiworks'
 import StartYourCareer from '../components/carousels/startYourCareer'
 import FAQ from '../components/footers/faq'
+import Footer from '../components/footers/footer'
+
 
 function Job() {
     return (
@@ -16,7 +18,7 @@ function Job() {
                         <div  className="contentdiv container w-50">
                             <div className="lft-clm">
                                 <h1>
-                                    <span>Learn with Simplilearn <br /> Get a Job - guaranteed*</span>
+                                    <span>Learn with The Generic Technology <br /> Get a Job - guaranteed*</span>
                                 </h1>
                                 <ul>
                                     <li>
@@ -64,6 +66,7 @@ function Job() {
                 <Alluminiworks/>
                 <StartYourCareer/>
                 <FAQ/>
+                <Footer/>
             </div>
             <style>
                 {

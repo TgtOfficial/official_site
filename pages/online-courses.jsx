@@ -2,6 +2,8 @@ import React from 'react'
 import Header1 from '../components/headers/header1'
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import Footer from '../components/footers/footer'
+
 
 
 
@@ -720,7 +722,8 @@ const Onlinecourses = () => {
                         </div>
                     </div>
                 </div>
-
+                
+                                        <Footer/>
             </div>
             <style jsx>
                 {
@@ -1002,6 +1005,29 @@ const Onlinecourses = () => {
 
 .box:hover::before{
     background-color: rgb(red, green,blue,alpha);
+}
+@media(max-width:992px){
+    .ccdiv{
+        display:flex;
+        flex-direction:column;
+    }
+    .ditemdiv{
+        flex-direction:column;
+    }
+    .gif-img{
+        width:100%;
+        height:100%;
+    }
+    .banner{
+        padding:122px 12px;
+    }
+    .key-feature ul{
+        display:flex;
+        flex-direction:column;
+    }
+    .key-feature ul li{
+        width:100%;
+    }
 }
                     `
                 }

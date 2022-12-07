@@ -199,6 +199,9 @@ a {
     padding: 14px;
     text-align: justify;
   }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none !important;
+  }
 }
 
 .navbar-brand {

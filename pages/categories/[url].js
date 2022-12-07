@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import Header1 from '../../components/headers/header1'
+import { useState } from 'react'
 
 
 
@@ -8,8 +9,45 @@ const Dynamic_url = () => {
 
     const router = useRouter()
 
+    
 
-    const dynamic_course = router.query.dynamic_url;
+
+    const dynamic_course = router.query.url;
+
+    // var data
+
+    
+
+    var axios = require('axios');
+    // var data = JSON.stringify({
+    //     "token": token
+    // });
+
+    
+
+    var config = {
+        method: 'get',
+        url: '/api/categories',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        // data: data
+    };
+    
+    const [data, setdata]=useState(null)
+
+
+    axios(config)
+        .then(function (response) {
+            var data1=JSON.stringify(response.data);
+            setdata(data1)
+
+            console.log(data["id"])
+
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 
     return (
         <>
@@ -35,31 +73,7 @@ const Dynamic_url = () => {
                                         <br />
                                         Course Duration : 12 month
                                     </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
-                                </div>
-                            </div>
-                            <div className="card" >
-                                <img className="card-img-top" src="https://source.unsplash.com/random/?online" alt="Card image cap" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Physical Classes</h5>
-                                    <p className="card-text">{dynamic_course} <br />
-                                        Courses Fee : 8000 <br />
-                                        <br />
-                                        Course Duration : 12 month
-                                    </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
-                                </div>
-                            </div>
-                            <div className="card" >
-                                <img className="card-img-top" src="https://source.unsplash.com/random/?programing" alt="Card image cap" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Corporate Training</h5>
-                                    <p className="card-text">{dynamic_course} <br />
-                                        Courses Fee : 8000 <br />
-                                        <br />
-                                        Course Duration : 12 month
-                                    </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
+                                    <a href="#" className="btn text-white  btn-info bold">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -99,12 +113,11 @@ const Dynamic_url = () => {
     padding:32px;
 }
 .card{
-    width:200px;
+    width:50%;
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
 }
 .card img{
-    width:200px;
-    height:100px;
+    // height:100px;
 }
 @media(min-width:992px){
     .desc{
@@ -117,6 +130,7 @@ const Dynamic_url = () => {
     }
     .card{
         margin-top:24px;
+        width:100%;
     }
 }
                     

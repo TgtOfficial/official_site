@@ -20,7 +20,7 @@ export default function Home() {
       <Header1/>
       <CarouselHome/>
       <Partnercompanies/>
-      <MasterProgram/>
+      {/* <MasterProgram/> */}
       <CertificationCourses/>
       <LearningExperience/>
       <Allumini/>

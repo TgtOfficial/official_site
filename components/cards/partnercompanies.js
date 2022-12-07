@@ -6,10 +6,10 @@ function UncontrolledExample() {
     <> <div className="bg-white"> <h4 className="heading text-center text-secondary">Partnering with world{"'"}s leading  companies</h4>
       <div className="container justify-content-center p-3  d-flex ">
         <div className="img1  bg-white  mauto">
-        <img src="/c1.png" alt="" />
+        <img className='pt-2' src="/c1.png" alt="" />
         </div>
-        <div className="img2  bg-white mauto">
-            <img src="/c2.png" alt="" />
+        <div className="img2 bg-white mauto">
+            <img className='p-3' src="/c2.png" alt="" />
         </div>
         <div className="img3 bg-white mauto">
         <img src="/c3.png" alt="" />

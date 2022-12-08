@@ -24,8 +24,8 @@ function UncontrolledExample() {
 
             </div>
             <div className="right">
-              <div className="imgdiv">
-                <img src="/slide1.png" alt="" />
+              <div className="imgdiv imgdiv1">
+                <img src="/homeb.png" alt="" />
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ function UncontrolledExample() {
             </div>
             <div className="right">
               <div className="imgdiv">
-                <img src="/slide1.png" alt="" />
+                <img src="/homeb1.png" alt="" />
               </div>
             </div>
           </div>
@@ -82,11 +82,17 @@ function UncontrolledExample() {
         .minflex{
           flex-direction:column;
         }
-        .imgdiv img{
-          width:90%;
-          margin:22px;
-        }
+
       }
+      .imgdiv img{
+        width:402px;
+        height:332px;
+      }
+      .imgdiv1 img{
+        width:402px;
+        height:332px;
+      }
+
       `
         }
       </style>

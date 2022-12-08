@@ -40,7 +40,7 @@ function Ct() {
                         </ul>
                     </div>
                     <div className="bootcamp-img mt-5">
-                        <img className="blend-mode " width="16" height="9" src="https://www.simplilearn.com/ice9/assets/ct-page/ct-bootcamp.gif" alt="corporate bootcamp gif" />
+                        <img className="blend-mode " width="16" height="9" src="/ct-bootcamp.gif" alt="corporate bootcamp gif" />
                     </div>
                 </div>
                 <div className="potential">
@@ -102,7 +102,7 @@ function Ct() {
                     `
 
 .banner {
-    background: url(https://www.simplilearn.com/ice9/assets/ct-page/Banner.jpg) no-repeat;
+    background: url(/Banner.avif) no-repeat;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

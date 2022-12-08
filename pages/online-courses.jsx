@@ -534,7 +534,7 @@ const Onlinecourses = () => {
                     <div className="banner" data-test="Banner">
                         <div className="container heading">
                             <h1 className="ban-header">Learn today{"’"}s most in-demand<br />
-                                skills with our free online <br />courses</h1>
+                                skills with our  online <br />courses</h1>
                         </div>
                         <div className="container">
                             <a href="#recommendations" className="btn btn-primary cbtn">Explore Free Courses</a>
@@ -590,7 +590,7 @@ const Onlinecourses = () => {
                 <div className="coursesbar">
 
                     <div className="topddc  container">
-                        <h2 className="head">Explore Free Online Courses</h2>
+                        <h2 className="head">Explore Online Courses</h2>
                         <div className='ditemdiv' >
                             <div className="dmg p-3">
                                 <div className="ci1 title hh dropdown-item"><h4 className="h hhh">COURSE CATEGORIES</h4></div>
@@ -730,7 +730,7 @@ const Onlinecourses = () => {
                     `
 .banner {
     width: 100%;
-    background: url(https://www.simplilearn.com/ice9/assets/freemium/freemium-banner.jpg);
+    background: url(/olearn.jpg);
     background-position: top center;
     background-size: cover;
     background-height:100%;
@@ -739,6 +739,11 @@ const Onlinecourses = () => {
 }
 .head{
     font-size:32px;
+}
+.heading{
+    color:green;
+    font-weight:600px;
+    text-align:center;
 }
 
 .recommendation-container .get-recommendation-block {

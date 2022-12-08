@@ -14,7 +14,7 @@ function startYourCareer() {
                             <div className="maincards container d-flex justify-content-between">
                                 <div className="card1 bg-white ds2">
                                     <div className="image ">
-                                        <img src="https://www.simplilearn.com/ice9/jg-insta/60376175-0-Full-Stack-java-Deve.png" alt="sd" />
+                                        <img src="https://source.unsplash.com/random/?java" alt="sd" />
                                     </div>
                                     <div className="title ps-2 ">
                                     <a href="#" className="link bold ">Full Stack Developer Job Guarantee Program</a>
@@ -22,7 +22,7 @@ function startYourCareer() {
                                 </div>
                                 <div className="card1 bg-white ds2">
                                     <div className="image ">
-                                        <img src="https://www.simplilearn.com/ice9/jg-insta/60376175-0-Full-Stack-java-Deve.png" alt="sd" />
+                                        <img src="https://source.unsplash.com/random/?java" alt="sd" />
                                     </div>
                                     <div className="title ps-2 ">
                                     <a href="#" className="link bold ">Full Stack Developer Job Guarantee Program</a>
@@ -30,7 +30,7 @@ function startYourCareer() {
                                 </div>
                                 <div className="card1 bg-white ds2">
                                     <div className="image ">
-                                        <img src="https://www.simplilearn.com/ice9/jg-insta/60376175-0-Full-Stack-java-Deve.png" alt="sd" />
+                                        <img src="https://source.unsplash.com/random/?java" alt="sd" />
                                     </div>
                                     <div className="title ps-2 ">
                                     <a href="#" className="link bold ">Full Stack Developer Job Guarantee Program</a>
@@ -45,7 +45,7 @@ function startYourCareer() {
                             <div className="maincards container d-flex justify-content-between">
                                 <div className="card1 bg-white ds2">
                                     <div className="image ">
-                                        <img src="https://www.simplilearn.com/ice9/jg-insta/60376175-0-Full-Stack-java-Deve.png" alt="sd" />
+                                        <img src="https://source.unsplash.com/random/?java" alt="sd" />
                                     </div>
                                     <div className="title ps-2 ">
                                     <a href="#" className="link bold ">Full Stack Developer Job Guarantee Program</a>

@@ -20,7 +20,7 @@ function instructor() {
                         <div className="txtctn txt-color">
                             <div className="c1">
                                 <h3 className="head1">You{"'"}ve come to the right place.</h3>
-                                <p className="desc1">At Simplilearn, our constant endeavour is to create a network of world-class trainers and industry-experts who, in turn, create high-quality courseware that resonates with professionals the world over, cutting across domains, especially Full Stack, DevOps, Cloud Computing, Big Data, Deep Learning and NLP.</p>
+                                <p className="desc1">At The Generic Technology, our constant endeavour is to create a network of world-class trainers and industry-experts who, in turn, create high-quality courseware that resonates with professionals the world over, cutting across domains, especially Full Stack, DevOps, Cloud Computing, Big Data, Deep Learning and NLP.</p>
                             </div>
                             <div className="c1">
                                 <h3 className="head1">What{"'"}s in it for me?</h3>
@@ -28,7 +28,7 @@ function instructor() {
                             </div>
                             <div className="c1">
                                 <h3 className="head1">Show me the money!</h3>
-                                <p className="desc1">At Simplilearn, we know the value of your time and effort, and also understand that offering fair and flexible compensation is a part of your business ethos. With our revenue-sharing model, you have the opportunity to earn tens of thousands of dollars every month!</p>
+                                <p className="desc1">At The Generic Technology, we know the value of your time and effort, and also understand that offering fair and flexible compensation is a part of your business ethos. With our revenue-sharing model, you have the opportunity to earn tens of thousands of dollars every month!</p>
                             </div>
                             <div className="c1">
                                 <h3 className="head1">What does it take?</h3>
@@ -46,7 +46,7 @@ function instructor() {
                         <div className="formdiv">
                             <div className="titlediv">
                                 <h3 className="titleform">INTERESTED IN WORKING WITH US?</h3>
-                                <p className="desform text-center">Please submit this form and a Simplilearn representative will reach out to you.</p>
+                                <p className="desform text-center">Please submit this form and a The Generic Technology representative will reach out to you.</p>
                             </div>
                             <form >
                                 <div className="form-group mb-3">
@@ -126,8 +126,11 @@ function instructor() {
     }
     .cards{
         width:100% !important;
-        padding:12px !important ;
-        margin:12px !important;
+
+    }
+    .carditem{
+        flex-direction:column;
+        align-items:center;
     }
 }
 .carditem{
@@ -142,19 +145,24 @@ function instructor() {
     border-radius: 8px;
 }
 .cards{
-    width: 738px;
-    margin-top: 0px;
-    margin-left: 92px;
-    padding-top: 56px;
-    padding-bottom: 56px;
     display: inline-block;
 }
 .cmaindiv{
     background:#ebf1f8;
 }
+.carditem{
+    padding:24px;
+}
 .expsys{
     padding-top:56px;
     margin-bottom:34px;
+}
+.imgdiv{
+    padding:24px;
+}
+.contents{
+    padding:24px;
+    text-align:justify;
 }
 .first-para {
     font-size: 16px;

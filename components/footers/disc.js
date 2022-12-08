@@ -22,9 +22,9 @@ const disc = () => {
                     <li>CISA® is a Registered Trade Mark of the Information Systems Audit and Control Association (ISACA) and the IT Governance Institute.</li>
                     <li>CISSP® is a registered mark of The International Information Systems Security Certification Consortium ((ISC)2). </li>
                     <li>CISCO®, CCNA®, and CCNP® are trademarks of Cisco and registered trademarks in the United States and certain other countries.</li>
-                    <li>Simplilearn and its affiliates, predecessors, successors and assigns are in no way associated, sponsored or promoted by SAP SE and neither do they provide any SAP based online or real-time courses or trainings</li>
+                    <li>The Generic Technology and its affiliates, predecessors, successors and assigns are in no way associated, sponsored or promoted by SAP SE and neither do they provide any SAP based online or real-time courses or trainings</li>
                     <li>The KPMG name and logo are trademarks used under license by the independent member firms of the KPMG global organization. KPMG International’s Trademarks are the sole property of KPMG International and their use here does not imply auditing by or endorsement of KPMG International or any of its member firms.</li>
-                    <li className='mb'>*According to Simplilearn survey conducted and subject to <a href="" target="_blank">terms &amp; conditions </a> with Ernst &amp; Young LLP (EY) as Process Advisors </li>
+                    <li className='mb'>*According to The Generic Technology survey conducted and subject to <a href="" target="_blank">terms &amp; conditions </a> with Ernst &amp; Young LLP (EY) as Process Advisors </li>
                 </ul>
             </div>
         </div>

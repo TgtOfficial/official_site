@@ -26,27 +26,27 @@ const footer = () => {
               <MDBCol className='mb-2 fc fc1 mb-md-0'>
                 <p className='text-start'>Follow Us!</p>
                 <div className="idiv">
-                  <button outline color="light"  className='m1 alink' href='#!' >
+                  <button outline color="light"  className='m1 alink btn btn-outline-secondary' href='#!' >
                     <MDBIcon fab icon='facebook-f' />
                   </button>
 
-                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                     <MDBIcon fab icon='twitter' />
                   </button>
 
-                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                     <MDBIcon fab icon='google' />
                   </button>
 
-                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                     <MDBIcon fab icon='instagram' />
                   </button>
 
-                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                     <MDBIcon fab icon='linkedin-in' />
                   </button>
 
-                  <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                  <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                     <MDBIcon fab icon='github' />
                   </button>
                 </div>
@@ -130,7 +130,7 @@ const footer = () => {
                   </li>
                   <li>
                     <a href='#!' className='fl'>
-                      Simplilearn Coupons and Discount Offers
+                      The Generic Technology Coupons and Discount Offers
                     </a>
                   </li>
                   <li>
@@ -257,7 +257,7 @@ const footer = () => {
           .fc1 .m-1{
             margin: 8px !important;
           }
-          Get the iOS App    .alink{
+          Get the iOS App    .alink btn btn-outline-secondary{
             padding:22px;
           }
           .fl{

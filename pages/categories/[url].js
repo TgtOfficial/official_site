@@ -9,21 +9,21 @@ const Dynamic_url = () => {
 
     const router = useRouter()
 
-    
+
 
 
     const dynamic_course = router.query.url;
 
     // var data
 
-    
+
 
     var axios = require('axios');
     // var data = JSON.stringify({
     //     "token": token
     // });
 
-    
+
 
     var config = {
         method: 'get',
@@ -33,21 +33,34 @@ const Dynamic_url = () => {
         },
         // data: data
     };
-    
-    const [data, setdata]=useState(null)
+
+    const [data, setdata] = useState()
+    const [isloaded, setisloaded] = useState(false)
 
 
-    axios(config)
-        .then(function (response) {
-            var data1=JSON.stringify(response.data);
-            setdata(data1)
+    if (isloaded == false) {
+        axios(config)
+            .then(function (response) {
+                var data1 = JSON.stringify(response.data);
+                setdata(data1)
+                setisloaded(!isloaded)
+                // console.log(data1)
+                // console.log("dfsfdj",data1[0].)
+                // console.log("sdfjfsdfj",data1[0]["id"])
+                // console.log("ctata", cdata)
 
-            console.log(data["id"])
 
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+    if (isloaded==true) {
+        
+        console.log("isloaded testing",data)
+    }
+
+
 
     return (
         <>
@@ -79,6 +92,19 @@ const Dynamic_url = () => {
                         </div>
                     </div>
                 </div>
+                {
+                    isloaded && (
+                    <>
+                    {
+                        data.data.map(function(course){
+                            return(
+                            <div className="card">dlfjasljf</div>)
+                    })
+                    }
+                    
+                    </>
+                    )
+                }
 
 
 

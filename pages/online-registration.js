@@ -145,6 +145,12 @@ const online = () => {
                 position:absolute;
                 bottom:0px;
             }
+            @media(min-width:992px){
+                form{
+                    width: 50%;
+                    margin: auto;
+                }
+            }
             `
                 }
             </style>

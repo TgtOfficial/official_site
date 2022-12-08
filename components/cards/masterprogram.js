@@ -27,7 +27,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -46,7 +46,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -65,7 +65,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -88,7 +88,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -107,7 +107,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -126,7 +126,7 @@ function UncontrolledExample() {
                                                 <span>11 Months  </span>
                                                 <span>6 Courses  </span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -151,7 +151,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>
@@ -174,7 +174,7 @@ function UncontrolledExample() {
                                                 <span>11 Months</span>
                                                 <span>6 Courses</span>
                                             </div>
-                                            <p>Simplilearn JobAssist Program </p>
+                                            <p>The Generic Technology JobAssist Program </p>
                                             <p>14 tools &amp; 4 Industry Projects</p>
                                             <p>Master{"'"}s certificate</p>
                                         </div>

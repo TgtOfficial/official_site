@@ -5,7 +5,7 @@ function contact() {
             <div className="main">
                 <div className="titlediv container">
                     <h2 className="title pb-3 pt-5">Contact Us</h2>
-                    <p className="subhead mb-5" >Access quality candidate profiles directly from SimpliRecruit</p>
+                    <p className="subhead mb-5" >Access quality candidate profiles directly from The Generic Technology</p>
                 </div>
                 <div className="formdiv container">
                     <form className="pb-5">

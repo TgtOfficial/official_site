@@ -60,27 +60,27 @@ const Minfooter = () => {
                     <div className=''>
                         <p className='text-center text-white'>Follow Us!</p>
                         <div className="text-center mic">
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='facebook-f' />
                             </button>
 
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='twitter' />
                             </button>
 
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='google' />
                             </button>
 
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='instagram' />
                             </button>
 
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='linkedin-in' />
                             </button>
 
-                            <button outline color="light" floating className='m1 alink' href='#!' role='button'>
+                            <button outline color="light" floating className='m1 alink btn btn-outline-secondary' href='#!' role='button'>
                                 <MDBIcon fab icon='github' />
                             </button>
                         </div>
@@ -164,7 +164,7 @@ const Minfooter = () => {
                             </li>
                             <li>
                                 <a href='#!' className='fl'>
-                                    Simplilearn Coupons and Discount Offers
+                                    The Generic Technology Coupons and Discount Offers
                                 </a>
                             </li>
                             <li>

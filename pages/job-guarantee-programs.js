@@ -22,25 +22,25 @@ function Job() {
                                 </h1>
                                 <ul>
                                     <li>
-                                        <img  alt="Job Guarantee*" src="https://www.simplilearn.com/ice9/jg-insta/60455585-0-Group-2927.png" width="24" height="24" />
+                                        <img  alt="Job Guarantee*" src="/check.png" width="24" height="24" />
                                         <span>Job Guarantee*
                                         </span>
                                     </li>
                                     <li>
-                                        <img alt="Career Mentoring and Interview Preparation" src="https://www.simplilearn.com/ice9/jg-insta/60455585-0-Group-2927.png" width="24" height="24" /><span>Career Mentoring and Interview Preparation
+                                        <img alt="Career Mentoring and Interview Preparation" src="/check.png" width="24" height="24" /><span>Career Mentoring and Interview Preparation
                                         </span>
                                     </li>
                                     <li>
-                                        <img alt="316% - Maximum Salary Hike* (Till date)" src="https://www.simplilearn.com/ice9/jg-insta/60455585-0-Group-2927.png" width="24" height="24" />
+                                        <img alt="316% - Maximum Salary Hike* (Till date)" src="/check.png" width="24" height="24" />
                                         <span>316% - Maximum Salary Hike* (Till date)</span>
                                     </li>
                                     <li>
-                                        <img alt="200+ Hiring Partners" src="https://www.simplilearn.com/ice9/jg-insta/60455585-0-Group-2927.png" width="24" height="24" /><span>200+ Hiring Partners</span></li></ul></div> </div>
+                                        <img alt="200+ Hiring Partners" src="/check.png" width="24" height="24" /><span>200+ Hiring Partners</span></li></ul></div> </div>
                         <div className="imagediv w-50">
-                            <img src="/jobs.png" alt="" />
+                            <img src="/elearn.png" alt="" />
                         </div>
                     </div>
-                    <div className=" text-gray bgc p-3 "><p className='container small'>*Disclaimer: Valid only for Simplilearn Job Guarantee Programs. Please read the applicable Frequently Asked Questions (FAQs) and <a href="#" > Terms and Conditions </a> (T&amp;Cs) carefully prior to enrolment. Past record is no guarantee of future prospects.</p></div>
+                    <div className=" text-gray bgc p-3 "><p className='container small'>*Disclaimer: Valid only for The Generic Technology Job Guarantee Programs. Please read the applicable Frequently Asked Questions (FAQs) and <a href="#" > Terms and Conditions </a> (T&amp;Cs) carefully prior to enrolment. Past record is no guarantee of future prospects.</p></div>
                     <div className=" bg-white  ">
                         <div className="container pt-5 pb-5 career-launch d-flex">
                             <div className="heading">
@@ -52,10 +52,10 @@ function Job() {
                                 </h2>
                             </div>
                             <div className="item">
-                                <img src="https://www.simplilearn.com/ice9/jg-insta/60500615-0-shape.png" alt="graph line" width="75" height="60" />
+                                <img src="/aline.webp" alt="graph line" width="75" height="60" />
                                 <p>2+ million data, programming &amp; digital marketing jobs are in India
                                     <span>(As per Linkedin)</span></p></div><div className="item">
-                                <img src="https://www.simplilearn.com/ice9/jg-insta/60500615-0-shape.png" alt="graph line" width="75" height="60" />
+                                <img src="/aline.webp" alt="graph line" width="75" height="60" />
                                 <p>Now guarantee* yours and get the career kickstart you deserve.</p>
                             </div>
                         </div>
@@ -82,12 +82,16 @@ function Job() {
     font-size: 34px;
     color:white;
 }
+.imagediv img{
+    width:552px;
+    height:412px;
+}
 .lft-clm h1 span::after {
     
     display: inline-block;
     width: 210px;
     height: 10px;
-    background: url(https://www.simplilearn.com/ice9/jg-insta/60502510-0-orange-line.png) no-repeat;
+    background: url(/oline.png) no-repeat;
     background-size: contain;
     margin-right: 140px;
     float: right;

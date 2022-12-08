@@ -242,7 +242,7 @@ const Nav = () => {
                 <ul className={Styles.navlists}>
                   <li onClick={sidebarfull} className="items">All Courses</li>
                   <li className="items"><a href={"/job-guarantee-programs"}>Job Guarantee</a></li>
-                  <li className="items"><a href={"/online-courses"}>Free Online Courses</a></li>
+                  <li className="items"><a href={"/online-courses"}>Online Courses</a></li>
                   <li className="items"><a href={"/qualifications"} >Resources</a></li>
                   <li className="items"><a href={"/corporate-training"} >Corporate Training</a></li>
                   <li className="items"><a href={"/become-an-instructor"}>Become an Instructor</a></li>

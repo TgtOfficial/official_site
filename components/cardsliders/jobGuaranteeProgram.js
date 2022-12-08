@@ -15,36 +15,36 @@ function UncontrolledExample() {
                             <div className="card-item  w-100">
                                 <div className="card-info">
                                     <div className="image">
-                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60454465-0-FSJD-IND-and-US---IN.png" />
+                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://source.unsplash.com/random/?online" />
                                     </div>
                                     <h3 className="title">Full Stack Java Developer<br />Job Guarantee Program</h3>
                                     <p>Master the complete suite of full stack development skills in this intense and immersive Bootcamp. Complete the program and get a job as a software developer - Guaranteed!*</p>
-                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376305-0-Placement-Icon.png" />Average Salary : 6.55 LPA*</div>
-                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376300-0-Trending-Icon.png" />Average Salary Hike : 95.18%*</div>
+                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="/placement.png" />Average Salary : 6.55 LPA*</div>
+                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="/trending.png" />Average Salary Hike : 95.18%*</div>
                                     <div className="btndiv text-center "><a className='btn text-center  btn-primary' href="/java-full-stack-developer-certification-training-course" target="_blank" >View Program</a></div>
                                 </div>
                             </div>
                             <div className="card-item w-100">
                                 <div className="card-info">
                                     <div className="image">
-                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60454465-0-FSJD-IND-and-US---IN.png" />
+                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://source.unsplash.com/random/?online" />
                                     </div>
                                     <h3 className="title">Full Stack Java Developer<br />Job Guarantee Program</h3>
                                     <p>Master the complete suite of full stack development skills in this intense and immersive Bootcamp. Complete the program and get a job as a software developer - Guaranteed!*</p>
-                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376305-0-Placement-Icon.png" />Average Salary : 6.55 LPA*</div>
-                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376300-0-Trending-Icon.png" />Average Salary Hike : 95.18%*</div>
+                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="/placement.png" />Average Salary : 6.55 LPA*</div>
+                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="/trending.png" />Average Salary Hike : 95.18%*</div>
                                     <div className="btndiv text-center "><a className='btn text-center  btn-primary' href="/java-full-stack-developer-certification-training-course" target="_blank" >View Program</a></div>
                                 </div>
                             </div>
                             <div className="card-item w-100">
                                 <div className="card-info">
                                     <div className="image">
-                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60454465-0-FSJD-IND-and-US---IN.png" />
+                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://source.unsplash.com/random/?online" />
                                     </div>
                                     <h3 className="title">Full Stack Java Developer<br />Job Guarantee Program</h3>
                                     <p>Master the complete suite of full stack development skills in this intense and immersive Bootcamp. Complete the program and get a job as a software developer - Guaranteed!*</p>
-                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376305-0-Placement-Icon.png" />Average Salary : 6.55 LPA*</div>
-                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376300-0-Trending-Icon.png" />Average Salary Hike : 95.18%*</div>
+                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="/placement.png" />Average Salary : 6.55 LPA*</div>
+                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="/trending.png" />Average Salary Hike : 95.18%*</div>
                                     <div className="btndiv text-center"><a className='btn text-center  btn-primary' href="/java-full-stack-developer-certification-training-course" target="_blank" >View Program</a></div>
                                 </div>
                             </div>
@@ -58,12 +58,12 @@ function UncontrolledExample() {
                             <div className="card-item w-100">
                                 <div className="card-info">
                                     <div className="image">
-                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60454465-0-FSJD-IND-and-US---IN.png" />
+                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://source.unsplash.com/random/?online" />
                                     </div>
                                     <h3 className="title">Full Stack Java Developer<br />Job Guarantee Program</h3>
                                     <p>Master the complete suite of full stack development skills in this intense and immersive Bootcamp. Complete the program and get a job as a software developer - Guaranteed!*</p>
-                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376305-0-Placement-Icon.png" />Average Salary : 6.55 LPA*</div>
-                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376300-0-Trending-Icon.png" />Average Salary Hike : 95.18%*</div>
+                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="/placement.png" />Average Salary : 6.55 LPA*</div>
+                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="/trending.png" />Average Salary Hike : 95.18%*</div>
                                     <div className="btndiv text-center"><a className='btn text-center  btn-primary' href="/java-full-stack-developer-certification-training-course" target="_blank" >View Program</a></div>
                                 </div>
                             </div>
@@ -75,12 +75,12 @@ function UncontrolledExample() {
                             <div className="card-item w-100">
                                 <div className="card-info">
                                     <div className="image">
-                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60454465-0-FSJD-IND-and-US---IN.png" />
+                                        <img alt="Full Stack Java Developer<br/>Job Guarantee Program" className="blend-mode" src="https://source.unsplash.com/random/?online" />
                                     </div>
                                     <h3 className="title">Full Stack Java Developer<br />Job Guarantee Program</h3>
                                     <p>Master the complete suite of full stack development skills in this intense and immersive Bootcamp. Complete the program and get a job as a software developer - Guaranteed!*</p>
-                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376305-0-Placement-Icon.png" />Average Salary : 6.55 LPA*</div>
-                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="https://www.simplilearn.com/ice9/jg-insta/60376300-0-Trending-Icon.png" />Average Salary Hike : 95.18%*</div>
+                                    <div className="avg-salary"><img alt="Average Salary" className="blend-mode" src="/placement.png" />Average Salary : 6.55 LPA*</div>
+                                    <div className="avg-salary hike"><img alt="Average Salary Hike" className="blend-mode" src="/trending.png" />Average Salary Hike : 95.18%*</div>
                                     <div className="btndiv text-center"><a className='btn text-center  btn-primary' href="/java-full-stack-developer-certification-training-course" target="_blank" >View Program</a></div>
                                 </div>
                             </div>

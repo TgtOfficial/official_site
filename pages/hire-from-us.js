@@ -15,11 +15,11 @@ function Hire() {
                     <div className="container homebanner">
                         <div className="left">
                             <h1 className="title">Best Talent. Zero Cost. Easy Hiring.</h1>
-                            <p>SimpliRecruit is the one stop platform to hire job ready, industry trained talent for your organization. Hire the best candidates for Digital Marketing, Data Science, Full Stack Java Developer &amp; more with one click &amp; at zero cost.</p>
+                            <p>The Generic Technology is the one stop platform to hire job ready, industry trained talent for your organization. Hire the best candidates for Digital Marketing, Data Science, Full Stack Java Developer &amp; more with one click &amp; at zero cost.</p>
                             <div className="btn hbtn btn-primary">Start Hiring</div>
                         </div>
                         <div className="ri8">
-                        <img src="https://sl-blog.simplilearn.com/wp-content/uploads/2022/10/Group-76511.png" alt="" />
+                        <img src="/hire.webp" alt="" />
                         </div>
                     </div>
                     <div className="rowdiv">

@@ -4,7 +4,7 @@ function whyhire() {
         <>
             <div className="main ">
                 <div className="titlediv pt-5 mb-5 container">
-                    <h2 className="whytt">Why Hire from SimpliRecruit?</h2>
+                    <h2 className="whytt">Why Hire from The Generic Technology?</h2>
                 </div>
                 <div className="cardsdiv container">
                     <div className="cards">
@@ -26,7 +26,7 @@ function whyhire() {
                         <div className="carditem">
                             <div className="image"><img src="/hfus4.png" alt="cards image" /></div>
                             <div className="title">Zero Hiring Cost</div>
-                            <div className="desc"><p className="txt">Hire the best job ready talent directly from SimpliRecruit at zero cost to your organization</p></div>
+                            <div className="desc"><p className="txt">Hire the best job ready talent directly from The Generic Technology at zero cost to your organization</p></div>
                         </div>
                     </div>
                 </div>

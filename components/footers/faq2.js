@@ -57,16 +57,16 @@ function Faq() {
                                 <li className="list-group-item">We have a pool of trained candidates with hands on experience, and have worked on industry relevant capstones. Hiring companies can review, shortlist, assess and interview the candidates based on their requirements and hire the best candidates.</li>
                             )
                         }
-                        <li onClick={list3} className="list-group-item bold lsd"><span>How to post job vacancies online for free at SimpliRecruit?</span></li>
+                        <li onClick={list3} className="list-group-item bold lsd"><span>How to post job vacancies online for free at The Generic Technology?</span></li>
                         {
                             isActive3 && (
                                 <li className="list-group-item">Organisations just need to fill a form with their requirement and the job will be posted by the career services team.</li>
                             )
                         }
-                        <li onClick={list4} className="list-group-item bold lsd"><span>What is the benefit of hiring employees from SimpliRecruit?</span></li>
+                        <li onClick={list4} className="list-group-item bold lsd"><span>What is the benefit of hiring employees from The Generic Technology?</span></li>
                         {
                             isActive4 && (
-                                <li className="list-group-item">Organisations will get trained and certified candidates with hands on experience from Simplirecruit at zero cost. We also offer dedicated hiring support so hiring becomes easier.</li>
+                                <li className="list-group-item">Organisations will get trained and certified candidates with hands on experience from The Generic Technology at zero cost. We also offer dedicated hiring support so hiring becomes easier.</li>
                             )
                         }
                         <li onClick={list5} className="list-group-item bold lsd"><span>Can I hire candidates on hourly or project-based requirements?</span></li>
@@ -81,13 +81,13 @@ function Faq() {
                                 <li className="list-group-item">Yes, you can.</li>
                             )
                         }
-                        <li onClick={list7} className="list-group-item bold lsd"><span>Is there any limit to hiring employees from SimpliRecruit?</span></li>
+                        <li onClick={list7} className="list-group-item bold lsd"><span>Is there any limit to hiring employees from The Generic Technology?</span></li>
                         {
                             isActive7 && (
                                 <li className="list-group-item">You can hire as many candidates as you want from us.</li>
                             )
                         }
-                        <li onClick={list8} className="list-group-item bold lsd"><span>For which locations can I hire candidates from SimpliRecruit?</span></li>
+                        <li onClick={list8} className="list-group-item bold lsd"><span>For which locations can I hire candidates from The Generic Technology?</span></li>
                         {
                             isActive8 && (
                                 <li className="list-group-item">Candidates are available across India.</li>

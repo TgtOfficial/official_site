@@ -153,7 +153,7 @@ h4 div {
 }
 .card{
     width: 336px;
-    margin: 12px;
+    margin: auto;
     padding: 10px;
 }
 .cards{

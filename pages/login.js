@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 function login() {
 
     return (
@@ -28,14 +30,14 @@ function login() {
                                 <div className="col d-flex justify-content-center">
 
                                     <div className="form-check">
-                                        <input className="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                        <input className="form-check-input" type="checkbox"  id="form2Example31" checked />
                                         <label className="form-check-label" htmlFor="form2Example31"> Remember me </label>
                                     </div>
                                 </div>
 
                                 <div className="col">
 
-                                    <a href="#!">Forgot password?</a>
+                                    <Link href="#!">Forgot password?</Link>
                                 </div>
                             </div>
 
@@ -44,7 +46,7 @@ function login() {
 
 
                             <div className="text-center">
-                                <p>Not a member? <a href="#!">Register</a></p>
+                                <p>Not a member? <Link href="#!">Register</Link></p>
                                 <p>or sign up with:</p>
                                 <button type="button" className="btn btn-link btn-floating mx-1">
                                     <i className="fab fa-facebook-f"></i>
@@ -62,7 +64,7 @@ function login() {
                                     <i className="fab fa-github"></i>
                                 </button>
                             </div>
-                            <div className="container"><a href="/admin" className="btn btn-link">Authorised Login</a></div>
+                            <div className="container"><Link href="/admin" className="btn btn-link">Authorised Login</Link></div>
                         </form>
 
                     </div>

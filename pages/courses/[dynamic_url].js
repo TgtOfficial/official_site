@@ -1,6 +1,8 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import Header1 from '../../components/headers/header1'
+import Footer from '../../components/footers/footer'
+import Link from 'next/link'
 
 
 
@@ -35,7 +37,7 @@ const Dynamic_url = () => {
                                         <br />
                                         Course Duration : 12 month
                                     </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
+                                    <Link href="/online-registration" className="btn text-white  btn-warning bold">Enroll Now</Link>
                                 </div>
                             </div>
                             <div className="card" >
@@ -47,7 +49,7 @@ const Dynamic_url = () => {
                                         <br />
                                         Course Duration : 12 month
                                     </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
+                                    <Link href="/online-registration" className="btn text-white  btn-warning bold">Enroll Now</Link>
                                 </div>
                             </div>
                             <div className="card" >
@@ -59,13 +61,13 @@ const Dynamic_url = () => {
                                         <br />
                                         Course Duration : 12 month
                                     </p>
-                                    <a href="#" className="btn text-white  btn-warning bold">Enroll Now</a>
+                                    <Link href="/online-registration" className="btn text-white  btn-warning bold">Enroll Now</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+            <Footer/>
 
 
             </div>
@@ -99,11 +101,11 @@ const Dynamic_url = () => {
     padding:32px;
 }
 .card{
-    width:200px;
+    width:30%;
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
 }
 .card img{
-    width:200px;
+    width:100%;
     height:100px;
 }
 @media(min-width:992px){
@@ -117,6 +119,7 @@ const Dynamic_url = () => {
     }
     .card{
         margin-top:24px;
+        width:100%;
     }
 }
                     

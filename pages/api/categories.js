@@ -597,7 +597,7 @@ export default function handler(req, res) {
                 "title":"Web Scraping",
                 "fee":"4000",
                 "duration":"6 month"
-            },
+            },  
             {
                 "id":"34",
                 "sub categories":"Full Stack Development",

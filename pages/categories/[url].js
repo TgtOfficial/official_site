@@ -95,12 +95,12 @@ const Dynamic_url = () => {
                 {
                     isloaded && (
                     <>
-                    {
+                    {/* {
                         data.data.map(function(course){
                             return(
                             <div className="card">dlfjasljf</div>)
                     })
-                    }
+                    } */}
                     
                     </>
                     )

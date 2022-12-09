@@ -7,7 +7,7 @@ import FormData from 'form-data';
 import Footer from '../components/footers/footer'
 
 
-const online = () => {
+const Online = () => {
 
 
     // const form = useRef()
@@ -160,4 +160,4 @@ const online = () => {
     )
 }
 
-export default online
+export default Online

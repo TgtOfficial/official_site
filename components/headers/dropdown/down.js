@@ -1,6 +1,8 @@
 
 import Dright from './right';
 import { useState } from "react";
+import axios from 'axios';
+import Link from 'next/link';
 
 
 function DropDirectioExample() {
@@ -9,6 +11,8 @@ function DropDirectioExample() {
 
     const dd = () => {
         setIsActivedd(!isActivedd);
+        setIsActive(!isActive)
+
     }
     // isactive categories
 
@@ -498,17 +502,51 @@ function DropDirectioExample() {
     }
 
 
+
+
+    const [courses, setCourses] = useState([]);
+
+    const [isCoursesApi, setIsCoursesApi] = useState(false)
+
+    let courss = 0;
+
+    const coption = () => {
+        setIsActive(!isActive)
+        alert("testing")
+    }
+
+    if (isCoursesApi == false) {
+
+        const resposse = axios.get("/api/courses")
+            .then(
+                data => {
+                    setCourses(data)
+                    courss = data;
+                    setIsCoursesApi(!isCoursesApi)
+                    coption
+                }
+            )
+            .catch(
+                error => console.log(error)
+            );
+    }
+
+    const [isActive, setIsActive] = useState(false)
+
+
+
+
     return (
         <>
             <div className="mb-2">
                 <div className="nav-item dropdown">
-                    <div onMouseEnter={dd}   onClick={dd} className="nav-divnk btn   topbtn btn-primary " >
+                    <div onMouseEnter={dd} onClick={dd} className="nav-divnk btn   topbtn btn-primary " >
                         <i className="fa fa-bars"></i>
                         <span className="btnname">All Courses</span>
                     </div>
                     {isActivedd && (
                         <div onMouseLeave={dd} className="topddc">
-                            <div className='ditemdiv' >
+                            {/* <div className='ditemdiv' >
                                 <div className="dmg p-3">
                                     <div className="ci1 title dropdown-item"><h4 className="h">COURSE CATEGORIES</h4></div>
                                     <div onMouseOut={ddc1} onClick={ddc1} className="ci2 dropdown-item clight "><h4 className="h">Data Science {'&'} Business Analytics</h4></div>
@@ -621,11 +659,18 @@ function DropDirectioExample() {
                                         </div>
                                     )}
                                 </div>
-                            </div>
-                            <div className="dmc">
+                            </div> */}
+                            <div className="ditemdiv">
 
+                                {isActive && (<div className="list-group">
 
-
+                                    {
+                                        courses.data.map((course) => (
+                                            <Link key={course.title} href={`/courses/${course.title}`}><div className='list-group-item list-group-item-primary' key={course.title}>{course.title}</div></Link>
+                                        ))
+                                    }
+                                </div>
+                                )}
                             </div>
                         </div>
                     )}
@@ -641,6 +686,17 @@ function DropDirectioExample() {
                         z-index:2;
                         box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
                         border-radius: 4px;
+                        width:50vw;
+                        padding:12px;
+                    }
+                    .list-group{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                    .list-group a{
+                        width:30%; margin:12px;
+                        cursor: pointer;
                     }
                     .a{
                         color:#272c37ad!important;

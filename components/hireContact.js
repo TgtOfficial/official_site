@@ -39,7 +39,7 @@ function contact() {
                         </div>
                         <div className="form-g mt-3 mb-2">
                             <label htmlFor="textarea" className="textarea mb-2">Message</label>
-                            <textarea className="form-control" name="message" id="messages" > </textarea>
+                            <textarea className="form-control" name="message" id="messages" >Enter message</textarea>
                         </div>
                         <div className="form-g2 w-100">
                             <button type="submit" className="btn btns btn-primary m-auto">Submit</button>

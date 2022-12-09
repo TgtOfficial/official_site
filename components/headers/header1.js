@@ -8,11 +8,16 @@ import Image from "next/image";
 import Topbar from "./topbar";
 
 
+import axios from 'axios';
+import Link from "next/link";
 
 
 
 
 const Nav = () => {
+
+
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -110,6 +115,35 @@ const Nav = () => {
   }
 
 
+
+  const [courses, setCourses] = useState([]);
+
+  const [isCoursesApi, setIsCoursesApi] = useState(false)
+
+  let courss = 0;
+
+  const coption = () => {
+      setIsActive(!isActive)
+      alert("testing")
+  }
+
+  if (isCoursesApi == false) {
+
+      const resposse = axios.get("/api/courses")
+          .then(
+              data => {
+                  setCourses(data)
+                  courss = data;
+                  setIsCoursesApi(!isCoursesApi)
+                  coption
+              }
+          )
+          .catch(
+              error => console.log(error)
+          );
+  }
+
+
   return (
     <>
 
@@ -182,6 +216,7 @@ const Nav = () => {
     right: 0;
     z-index:2;
     height: 100vh;
+    overflow:scroll;
 }
 .sidebarmin ul, .sidebarminfull ul{
   list-style:none;
@@ -254,7 +289,7 @@ const Nav = () => {
             {isActivefull && (
               <div className="sidebarminfull"  >
                 <div className="list-group-item sbarm sb-head-bg text-center list-group-item"><span onClick={sidebarfull} className="backico"><i className="fa  fa-arrow-left"></i></span><span className="menuname text-center">All Courses</span> <div onClick={() => { sidebarfull(); sidebar(); }} className="xclose"><CloseButton /></div></div>
-                <ul className={Styles.navlists}>
+                {/* <ul className={Styles.navlists}>
                   <li onClick={mcc1} className="items"><a href="#" className="hh">Data1 Science {'&'} Business Analytics</a></li>
                   <li onClick={mcc2} className="items"><a href="#" className="hh">AI {'&'} Machine Learning</a></li>
                   <li onClick={mcc3} className="items"><a href="#" className="hh">Project Management</a></li>
@@ -265,6 +300,13 @@ const Nav = () => {
                   <li onClick={mcc8} className="items"><a href="#" className="hh">Digital Marketing</a></li>
                   <li onClick={mcc9} className="items"><a href="#" className="hh">Big Data</a></li>
 
+                </ul> */}
+                <ul className="list-group">
+                  {
+                    courses.data.map((course) => (
+                      <Link key={course.title} href={`/courses/${course.title}`}><div className='list-group-item list-group-item-primary' key={course.title}>{course.title}</div></Link>
+                    ))
+                  }
                 </ul>
               </div>
             )}

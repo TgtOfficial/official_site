@@ -666,7 +666,7 @@ function DropDirectioExample() {
 
                                     {
                                         courses.data.map((course) => (
-                                            <Link key={course.title} href={`/courses/${course.title}`}><div className='list-group-item list-group-item-primary' key={course.title}>{course.title}</div></Link>
+                                            <Link className='item' key={course.title} href={`/courses/${course.title}`}><div className='list-group-item list-group-item-primary' key={course.title}>{course.title}</div></Link>
                                         ))
                                     }
                                 </div>
@@ -694,7 +694,7 @@ function DropDirectioExample() {
                         flex-direction: row;
                         flex-wrap: wrap;
                     }
-                    .list-group a{
+                    .list-group .item{
                         width:30%; margin:12px;
                         cursor: pointer;
                     }
